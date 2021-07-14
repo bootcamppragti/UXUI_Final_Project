@@ -1,0 +1,93 @@
+.carousel-inner img {
+    margin: auto;
+}
+.carousel-item img{
+    margin: auto;
+}
+.inspirationalQuote{
+    font-size: 42px;
+    margin-top:-270px;
+
+}
+.top-right {
+    position: absolute;
+    top: 600px;
+    left: 700px;
+    font-size:42px;
+}
+
+.top-middle {
+    position: absolute;
+    top: 710px;
+    left: 700px;
+    font-size:35px;
+}
+
+.top-bottom {
+    position: absolute;
+    top: 775px;
+    left: 700px;
+    right: 60px;
+    font-size:24px;
+}
+  
+.container{
+    margin-top:0px;
+}
+
+.image{
+    margin-left: -168px;
+}
+
+.favorites{
+    position: absolute;
+    top: 1200px;
+    left: 75px;
+    font-size: 42px;
+}
+
+.dropdown{
+    position: absolute;
+    top: 1200px;
+    left: 1150px;
+}
+
+.card-text{
+    font-size: 24px;
+}
+
+.card1{
+    position: absolute;
+    top: 1320px;
+    left: 75px;
+}
+
+.card2{
+    position: absolute;
+    top: 1320px;
+    left: 520px;
+}
+
+.card3{
+    position: absolute;
+    top: 1320px;
+    left: 970px;
+}
+
+.card4{
+    position: absolute;
+    top: 1800px;
+    left: 75px;
+}
+
+.card5{
+    position: absolute;
+    top: 1800px;
+    left: 520px;
+}
+
+.card6{
+    position: absolute;
+    top: 1800px;
+    left: 970px;
+}
