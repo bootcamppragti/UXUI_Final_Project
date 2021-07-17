@@ -1,0 +1,170 @@
+.content {
+  margin: 0 5%;
+}
+
+/*Navigation Bar*/ 
+.flex{
+  display:flex;  
+}
+
+.items-center{
+  align-items:center;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+:root{
+  --blue:#2F809D;
+  --yellow:#FCA718;
+  --red:#FC1E00;
+  --white:#ffffff;
+  --black:#000000;
+}
+
+body{
+  font-family:'Roboto', 'sans-serif';
+}
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialised; 
+  scroll-behavior: smooth;
+  font-family:'Roboto', 'sans-serif';
+}
+
+header{
+  background:var(--white);
+  height: 30vh;
+}
+
+header nav .right a{
+  color:var(--black);
+  text-decoration:none;
+}
+
+/*Hero*/
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/topicscover.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*Topic Selection*/
+.topic-selection {
+  margin: 5%;
+}
+
+.hr {
+  border: 1px solid black;
+  margin: 1.5%;
+}
+
+.col-3 a {
+  text-align: center;
+}
+
+.col-3 a img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 115px;
+  height: 115px;
+}
+
+.col-3 h2 {
+  font-size: medium;
+  font-family: 'Raleway', sans-serif;
+  color: #35485E;
+  justify-content: center;
+  margin: 10%;
+}
+
+#col-1 {
+  border-right: solid 2px #000;
+}
+
+#col-2 {
+  border-right: solid 2px #000;
+}
+
+#col-3 {
+  border-right: solid 2px #000;
+}
+
+/*Page Content Bottom*/
+col-4 {
+  float: right;
+}
+
+h1 {
+  color: var(--black);
+}
+
+h3 {
+  font-size: x-small;
+  align-items: center;
+}
+
+/*Footer*/
+footer {
+  background-color: #35485E;
+}
+
+footer .row {
+  margin: 2.5%;
+}
+
+footer .row .col {
+  margin-top: 2.5%;
+}
+
+footer .row .col-2 {
+  margin-top: 2.5%;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.text-muted {
+  color: #ffffff !important;
+}
+
+h5 {
+  color: #F7EAB3;
+}
+
+.btn:hover {
+  color: #35485E;
+  background-color:#ffffff;
+  border: 1px solid var(--yellow);
+}
+
+.btn {
+  border: 1px solid var(--yellow);
+  background-color: var(--yellow);
+  color: #35485E;
+}
+
+.nav-link {
+  color: #000000;
+  font-family: 'Raleway', 'sans-serif';
+}
+
+.nav-item {
+  margin: 0 2vw;
+}
